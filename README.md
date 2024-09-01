@@ -31,6 +31,8 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f ~/.ssh/custom_key_name
 
 ## Step 04: Create the "config" file & Define the Configurations
 
+This "config" file doesn't have an extention.
+
 ```txt
 Host github
 HostName github.com

@@ -50,9 +50,11 @@ ssh-add ~/.ssh/id_private
 ssh-add ./id_private         # If we're already inside the .ssh dir
 ```
 
+- Sometimes adding key to the agent is unnecessary. Do this step if the cloning a repo or pushing changes not working as we expected.
+
 <br/>
 
-## Step 04: Create the "config" file & Define the Configurations
+## Step 05: Create the "config" file & Define the Configurations
 
 This "config" file doesn't have an extention.
 
@@ -78,7 +80,7 @@ User ashenwork
 
 <br/>
 
-## Step 05: Get the Public Key & Configure it on GitHub
+## Step 06: Get the Public Key & Configure it on GitHub
 
 ```sh
 cat .\id_rsa.pub
@@ -86,7 +88,7 @@ cat .\id_rsa.pub
 
 <br/>
 
-## Step 06: Clone the repository using GitHub SSH URL
+## Step 07: Clone the repository using GitHub SSH URL
 
 ```sh
 git clone git@<Host>:<GitHub_Username>/<Repo_Name>.git
@@ -99,7 +101,7 @@ git clone git@github-library:mythz-library/SSH-configuration-for-multiple-GitHub
 
 <br/>
 
-## Step 07: Update the remote repo URL of an existing repo
+## Step 08: Update the remote repo URL of an existing repo
 
 - If we're already cloned the repo. We must update the host of remote repo.
 
